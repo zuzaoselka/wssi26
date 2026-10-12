@@ -1,1 +1,4 @@
-
+- tłumaczenie tekstu
+- układanie rozkładu jazdy transportu miejskiego
+- programowanie (pisanie programów komputerowych
+-
