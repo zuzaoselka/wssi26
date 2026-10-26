@@ -1,1 +1,25 @@
+przykłady:
 
+zwierze(tom).
+zwierze(fido).
+zwierze(reks).
+kot(tom).
+pies(fido).
+nie_kot(X) :- zwierze(X), \+ kot(X).
+osoba(ania). osoba(bartek). osoba(celina).
+osoba(dawid). osoba(ewa). osoba(filip).
+plec(ania,kobieta). plec(celina,kobieta).
+plec(ewa,kobieta).
+plec(bartek,mezczyzna). plec(dawid,mezczyzna).
+plec(filip,mezczyzna).
+lubi(ania,bartek). lubi(bartek,ania).
+lubi(ania,celina). lubi(celina,ania).
+lubi(ewa,filip). lubi(filip,ewa).
+lubi(dawid,ewa). lubi(filip,ania).
+lubi(bartek,dawid).
+unika(celina,filip). unika(filip,celina).
+unika(dawid,bartek).
+kocha(ania,bartek). kocha(bartek,ania).
+kocha(celina,dawid). kocha(dawid,celina).
+kocha(dawid,ewa).
+kocha(ewa,filip). kocha(filip,ewa).
