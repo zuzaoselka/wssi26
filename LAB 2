@@ -23,3 +23,10 @@ kocha(ania,bartek). kocha(bartek,ania).
 kocha(celina,dawid). kocha(dawid,celina).
 kocha(dawid,ewa).
 kocha(ewa,filip). kocha(filip,ewa).
+
+ćwiczenia:
+1.1 ground(para(tom,reks)). - true, nie potrzeba para/2
+1.2 ground(para(X,X)). - false; ground(para(tom,tom)). - true
+1.3 Dane = ksiazka(hobbit,tolkien), ground(posiada(anna,Dane)). - Dane = ksiazka(hobbit,tolkien).
+1.4 (posiada(anna,ksiazka(hobbit,tolkien))). - true ; ground(posiada(anna,ksiazka(hobbit,Autor))). - false
+1.5 ground(kot(reks)). - true, ponieważ test dotyczy składni termu, a nie zawartości bazy
